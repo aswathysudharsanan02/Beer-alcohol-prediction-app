@@ -54,6 +54,9 @@ R² Score: 0.9468
 
 The prediction application was developed using Streamlit and includes interactive visualizations and prediction functionality.
 
+## Live App
+Link : https://beer-alcohol-prediction-app-8bamynvwdkshldx8fugxyj.streamlit.app/
+
 ## Conclusion
 
 In this project, the Beer Servings Dataset was analyzed to predict the **Total Litres of Pure Alcohol Consumption** using machine learning techniques. Data preprocessing was performed to handle missing values and prepare the dataset for model development.Two regression models, **Linear Regression** and **Random Forest Regressor**, were developed and evaluated using the R² score as the performance metric. Hyperparameter tuning was performed on the Random Forest model using GridSearchCV to identify the optimal model parameters.The results showed that **Linear Regression achieved the highest R² score of approximately 0.9468**. Therefore, Linear Regression was selected as the final model for deployment.
