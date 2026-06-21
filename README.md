@@ -23,6 +23,13 @@ Target Variable: Total Litres of Pure Alcohol
 * Wine Servings(Average number of wine servings consumed per person annually)
 * Continent(Continent to which the country belongs)
 
+## Features
+- Data visualization 
+- Regression model prediction
+- Country and continent selection
+- Streamlit web app deployment
+
+
 ## Target Variable
 
 * Total Litres of pure Alcohol consumed per person per year. This is the variable predicted by the machine learning models. 
