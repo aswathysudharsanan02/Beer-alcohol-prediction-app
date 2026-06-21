@@ -1,22 +1,15 @@
 # Beer Servings Alcohol Prediction App
 
 ## Project Overview
-
 This project predicts Total Litres of Pure Alcohol Consumption using machine learning.
 
 ## Dataset Overview
-
 Beer Servings Dataset.It contains alcohol consumption statistics for countries around the world. The dataset provides information on the average consumption of different alcoholic beverages and the corresponding total litres of pure alcohol consumed per person. 
-
-Number of Records: 193 countries
-Number of Input Features: 5
-Data Types:
-Numerical Features: Beer Servings, Spirit Servings, Wine Servings
-Categorical Features: Country, Continent
-Target Variable: Total Litres of Pure Alcohol
+- Number of records: 193 countries  
+- Input features: 5  
+- Target: Total Litres of Pure Alcohol  
 
 ## Input Features
-
 * Country(Name)
 * Beer Servings (Average number of beer servings consumed per person annually)
 * Spirit Servings(Average number of spirit servings consumed per person annually)
@@ -31,27 +24,21 @@ Target Variable: Total Litres of Pure Alcohol
 
 
 ## Target Variable
-
-* Total Litres of pure Alcohol consumed per person per year. This is the variable predicted by the machine learning models. 
+Total Litres of pure Alcohol consumed per person per year. This is the variable predicted by the machine learning models. 
 
 
 ## Models Used
-
 1. Linear Regression
 2. Random Forest Regressor
 
 ## Hyperparameter Tuning
-
 GridSearchCV was used to tune the Random Forest model using different values of n_estimators and max_depth.
 
 ## Best Model
-
 Linear Regression
-
 R² Score: 0.9468
 
 ## Web Application
-
 The prediction application was developed using Streamlit and includes interactive visualizations and prediction functionality.
 
 ## Live App
